@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  background: rgb(148, 148, 148);
+  margin: 0;
+  width: 100%;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto 0;
+  font-family: "Teko", sans-serif;
+  border: 10px solid rgb(0, 0, 63);
+  border-radius: 20px;
+  background-color: rgb(66, 68, 64);
+  box-shadow: 0px 0px 12px 0px;
+}
+.canvas-wrapper {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  outline: none;
+  overflow: hidden;
+}
+#canvas-1 {
+  position: absolute;
+  background: transparent;
+  z-index: 1;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-top: 5px solid black;
+}
+button {
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 20px;
+  flex-grow: 1;
+  background-color: blanchedalmond;
+  box-shadow: 0px 0px 2px 0px;
+  cursor: pointer;
+}
+
+#timer {
+    user-select: none;
+    background: grey;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    border-right: 5px solid black;
+    border-bottom-left-radius: 10px;
+}

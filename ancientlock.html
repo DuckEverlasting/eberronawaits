@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="stylesheet" href="ancientdevice.css">
+  <link rel="stylesheet" href="ancientlock.css">
 
-  <title>Eberron Awaits!</title>
+  <title>Open The Lock!</title>
 
 </head>
 <body>
@@ -16,9 +16,10 @@
       <canvas id="canvas-1" ></canvas>
     </div>
     <div class="bottom">
-        <button onclick="start()"></button>
+        <div id="timer"></div>
+        <button id="submitButton" onclick="submitGuess()"></button>
     </div>
   </div>
 </body>
-<script src="./JS/ancientDevice.js"></script>
+<script src="./JS/ancientLock.js"></script>
 </html>
